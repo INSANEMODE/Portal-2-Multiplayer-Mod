@@ -37,7 +37,6 @@ jobs:
         with:
           nuitka-version: main
           script-name: src/MainWindow.py
-          onefile: true
           noinclude-data-files: "pygame/freesansbold.ttf"
           include-data-dir: |
               src/Languages=Languages
